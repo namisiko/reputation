@@ -2,7 +2,7 @@ pragma solidity ^0.5.11;
 import "browser/ Ownable.sol";
 import "browser/ KillerContract.sol";
 //import "./ MarketPlace.sol";
-contract Endorsement is Ownable , KillerContract {
+contract Endorse is Ownable , KillerContract {
 address owner;
 struct Participant {
 address identifier;
